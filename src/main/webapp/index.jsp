@@ -24,5 +24,10 @@
     <label>&nbsp;</label>
     <input type="submit" value="Join Now" class="margin_left">
 </form>
+<form class="returnproject" method="get" action="https://ltwgiuaki-final.onrender.com/home/#home">
+    <button type="submit">
+        <span class="arrow">←</span> Return Profile
+    </button>
+</form>
 </body>
 </html>
