@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Murach's Java Servlets and JSP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css" type="text/css"/>
 </head>
 <body>
@@ -22,11 +23,11 @@
     <label class="pad_top">Last Name:</label>
     <input type="text" name="lastName" value="${user.lastName}"><br>
     <label>&nbsp;</label>
-    <input type="submit" value="Join Now" class="margin_left">
+    <input type="submit" value="Join Now" class="margin_left pad_top btn btn-outline-success">
 </form>
 <form class="returnproject" method="get" action="https://ltwgiuaki-final.onrender.com/home/#home">
     <button type="submit">
-        <span class="arrow">←</span> Return Profile
+        <input type="submit" value="Return Profile" class="margin_left pad_top btn btn-outline-success">
     </button>
 </form>
 </body>
